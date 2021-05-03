@@ -1,0 +1,16 @@
+ 
+---------Starting Test CLOCK ----------
+wait period : 100001
+wait period : 99996
+wait period : 100000
+wait period : 100003
+wait period : 99997
+wait period : 100000
+wait period : 100003
+wait period : 99998
+wait period : 100000
+wait period : 100002
+ ---------Ending Test CLOCK ----------
+Sentinel quitting.
+No runnable processes, halting.
+

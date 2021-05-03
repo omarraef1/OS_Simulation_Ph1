@@ -1,0 +1,29 @@
+This directory contains the following tests:
+
+test_P_forever.c: Semaphore is never V'ed.
+test_P_invalid_args: Call P with invalid args.
+test_V_higher_priority: V'ed higher priority process should pre-empt.
+test_V_invalid_args: Call V with invalid args.
+test_V_lower_priority: V'ed lower priority process does not pre-empt.
+test_create_invalid_args: Create sem with invalid args.
+test_create_max: Exactly P1_MAXSEM semaphores can be created.
+test_everything: Comprehensive test.
+test_free: Repeatedly create and free semaphores without running out.
+test_free_invalid_args: Free with invalid arguments.
+test_free_with_blocked: Free a semaphore with processes blocked on it.
+test_multiple_blocked: Multiple processes blocked on the same semaphore.
+test_multiple_sems: Multiple processes blocked on individual semaphores.
+test_nested: Single process P's nested semaphores.
+test_p_v: One process P's on semaphore then another process V's it.
+test_races: Multiple processes P and V same semaphore w/ time slicing.
+test_semP: Semaphore initial value is 3, P it three times.
+test_v_p: One process V's on semaphore then another process P's it.
+
+
+**
+Please note the sample output for test- test_races under the results directory.
+Due to clock issues, the sequence of quitting might be different.
+On Gradescope, the quitting sequence is sorted and then graded so different
+sequences would still pass as long as all processes quit properly and the test
+prompts "TEST PASSED".
+**

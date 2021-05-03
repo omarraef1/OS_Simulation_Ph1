@@ -1,0 +1,22 @@
+startup: Creating mutex semaphore with initial value 1
+Proc0: Running.
+Proc1: Running.
+Proc2: Running.
+Proc3: Running.
+Proc4: Running.
+Proc5: Running.
+Proc6: Running.
+Proc7: Running.
+Proc8: Running.
+Proc9: Running.
+Proc6: Work done. Quitting.
+Proc0: Work done. Quitting.
+Proc9: Work done. Quitting.
+Proc3: Work done. Quitting.
+Proc2: Work done. Quitting.
+Proc5: Work done. Quitting.
+Proc7: Work done. Quitting.
+Proc4: Work done. Quitting.
+Proc1: Work done. Quitting.
+Proc8: Work done. Quitting.
+TEST PASSED.

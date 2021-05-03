@@ -1,0 +1,10 @@
+**
+Please note the sample output for test- test_device_clock under the results directory.
+Due to clock issues, the timing values might be different.
+On Gradescope, different timing would still pass as long as all devices complete
+waiting and the test prompts-
+
+Sentinel quitting.
+No runnable processes, halting.
+
+**
